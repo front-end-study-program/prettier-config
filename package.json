@@ -1,0 +1,23 @@
+{
+  "name": "@study-sea/prettier-config",
+  "version": "0.0.1",
+  "description": "prettier rules for config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-study-program/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "眼圈发黑 <1449826851@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/front-end-study-program/prettier-config/issues"
+  },
+  "homepage": "https://github.com/front-end-study-program/prettier-config#readme"
+}
