@@ -4,12 +4,17 @@
   "description": "prettier rules for config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/front-end-study-program/prettier-config.git"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
   "keywords": [
     "prettier",
     "config"
@@ -19,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/front-end-study-program/prettier-config/issues"
   },
-  "homepage": "https://github.com/front-end-study-program/prettier-config#readme"
+  "homepage": "https://github.com/front-end-study-program/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  }
 }
